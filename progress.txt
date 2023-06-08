@@ -1,0 +1,12 @@
+Date: 8/5/2023
+1. The marketplace frontend is already available (in project 3) and needs further editing to accommodate new nfts (contests) and more display of question contracts.
+
+2. The necessary smart contracts have been completed, and some sub-testcases in ChessCompetition have not been completed.
+
+3. Completed VRF locally both smart contract and oracle (refer to https://github.com/Bisonai/orakl with version 0.3.3) to customize for bsctestnet (Because chainlink doesn't support so I don't use it directly continue to this network).
+
+4. Parts 2 and 3 have not been combined yet (will be completed quickly in the next day).
+
+5. Need to build more database about users. Based on that information, additional features will be built to decide who can participate and initiate the contest. (the player authorizes the organizer to sign the contract).
+
+6. Sub: Create software to automatically take questions and answer questions for participants (providing the real answer directly, but sending it to the contract is the necessary answer for the question).

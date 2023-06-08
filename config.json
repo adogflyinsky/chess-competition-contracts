@@ -1,0 +1,16 @@
+{
+  "dev": {},
+  "baobab": {
+    "VToken": "0x78F40c0bbCD06C5B4dff728D6467E05e53C17552",
+    "chessPuzzle": "0x063571Bc0bc6BbA57FAA10638127C2b37b82331b"
+  },
+  "bsctest": {
+    "VToken": "0xb8895a2f8925AFcA92A7ef9664E093FFcD4E8D31",
+    "questions": "0xB9c5cc822E11AD0ed8cb19ACBc3FDc02E9944a26",
+    "chessPuzzle": "0x8cA44BfD3f8437Eeb014A737e78E6832255Aa226",
+    "prize": "0x320b6e6d7BC446028BE3Cd67aC11f80947c164C7",
+    "competitionChessPuzzle": "0x286eccFD0AD896b0e543e69eeC7C7aE63269e753",
+    "requestResponseCoordinator": "0x845F3DEF90dF82eF27a09cc39C65d94186133a25"
+  },
+  "main": {}
+}
