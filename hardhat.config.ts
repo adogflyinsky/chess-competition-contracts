@@ -7,11 +7,11 @@ module.exports = {
   networks: {
     bsctest: {
       url: "https://data-seed-prebsc-2-s2.binance.org:8545",
-      accounts: [process.env.PRIV_KEY]
+      accounts: [process.env.PRIVATE_KEY]
     },
     baobab: {
       url: 'https://api.baobab.klaytn.net:8651',
-      accounts: [process.env.PRIV_KEY]
+      accounts: [process.env.PRIVATE_KEY]
     }
   }
 };

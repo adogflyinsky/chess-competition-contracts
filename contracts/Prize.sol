@@ -46,7 +46,7 @@ contract Prize is IPrize, ERC721Enumerable {
         uint balance = balanceOf(owner);
         uint256[] memory ids = new uint256[](balance);
        
-        for( uint i = 0;i<balance;i++)
+        for( uint i = 0;i < balance; i++)
         {
             ids[i]=tokenOfOwnerByIndex(owner,i);
         }
@@ -73,10 +73,6 @@ contract Prize is IPrize, ERC721Enumerable {
         }
         _token.transfer(prizes[id].sender, prizes[id].amount - spend);
         prizes[id].isActive = true;
-    }
-
-    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721Enumerable) returns (bool) {
-        return super.supportsInterface(interfaceId);
     }
 
     function checkIsActive(uint256 id) public view returns (bool) {
